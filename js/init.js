@@ -1,11 +1,15 @@
 var ToolTips = new Array (
+	{
+        "title": "spiral",
+        "text": "Spiral is a genetic algorithms and neural networks framework.<br/>Primarly, it is  written in Python (and GObject) but a C++ (Helix) and C# is under active development.<br/><br/><small>http://github.com/makism/</small>"
+    },
+	{
+        "title": "meteor",
+        "text": "Meteor is cross platform (using CMake) C++ library which implements the following soft clustering algorithms: Neural Gas, Growing Neural Gas and Instantaneous Topological Map.<br/><br/><small>http://github.com/makism/meteor/</small>"
+    },
     {
         "title": "leaf framework",
         "text": "Leaf framework is the first greek open source mvc<br/>framework written in php5.<br/>Following the trends, it provides url routing, hooking subsystem, application invoker etc.<br/><br/><small>http://sourceforge.net/projects/leaf-framework</small>"
-    },
-    {
-        "title": "spiral",
-        "text": "Spiral is a genetic algorithms and neural networks framework.<br/>Primarly, it is  written in Python (and GObject) but a C++ port for ARM platforms is already under development.<br/><br/><small>http://github.com/makism/spiral</small>"
     },
     {
         "title": "pyid",
@@ -24,7 +28,7 @@ window.addEvent('domready', function() {
     
     //for( cntr=0; cntr<4; cntr++ ) {
     window.setInterval( function () {
-        if (cntr<4) {
+        if (cntr<5) {
             var fadeIn = new Fx.Morph(children[cntr], {
                 duration: 1500, transition: Fx.Transitions.Sine.easeOut
             });
