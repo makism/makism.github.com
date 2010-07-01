@@ -1,7 +1,7 @@
 var ToolTips = new Array (
 	{
         "title": "spiral",
-        "text": "Spiral is a genetic algorithms and neural networks framework.<br/>Primarly, it is  written in Python (and GObject) but a C++ (Helix) and C# is under active development.<br/><br/><small>http://github.com/makism/</small>"
+        "text": "Spiral is a genetic algorithms and neural networks framework.<br/>Primarly, it is  written in Python (and GObject) but a C++ (GeneticSoup) and C# is under active development.<br/><br/><small>http://github.com/makism/</small>"
     },
 	{
         "title": "meteor",
